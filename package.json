@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "ts-node-dev ./src/index.ts",
     "build": "tsc",
-    "prod": "node "
+    "prod": "node ./dist/index.js",
+    "format": "eslint --fix src/**/*"
   },
   "author": "",
   "license": "ISC",
