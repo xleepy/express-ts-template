@@ -3,7 +3,11 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['standard-with-typescript', 'plugin:security/recommended-legacy'],
+  extends: [
+    'standard-with-typescript',
+    'plugin:security/recommended-legacy',
+    'plugin:prettier/recommended',
+  ],
   overrides: [
     {
       env: {
